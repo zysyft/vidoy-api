@@ -19,7 +19,7 @@ def vidoy():
     }
 
     r = requests.get(
-        "https://vid7.online/embed.php",
+        "https://vidstrm.mom/embed.php",
         params={"bucket": "vidoycdn", "id": vid},
         headers=headers,
         timeout=15
@@ -34,4 +34,5 @@ def vidoy():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000)
+
 
